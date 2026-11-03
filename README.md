@@ -171,6 +171,7 @@ Contributions are welcome. If you have a script that fits the toolkit:
 ---
 
 ## License
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 Provided as-is for educational purposes. See the repository for specific licensing details.
 
