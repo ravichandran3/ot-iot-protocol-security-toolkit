@@ -15,4 +15,8 @@ def crc_generic(data, nbits, poly, width):
     return reg
 for w, poly in ((4, 0x13), (8, 0x07)):
     c = crc_generic(0b1101, 4, poly, w)
+<<<<<<< HEAD
     print("toy", w, bin(c), bin(crc_generic((0b1101<<w)|c, 4+w, poly, w)))
+=======
+    print("toy", w, bin(c), bin(crc_generic((0b1101<<w)|c, 4+w, poly, w)))
+>>>>>>> d160e37 (Add toolkit files)

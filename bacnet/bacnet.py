@@ -41,4 +41,8 @@ def apdu_write_real(obj_type, instance, value, prop=PROP_PRESENT_VALUE) -> bytes
 
 def parse_complex_ack(data: bytes) -> float:
     idx = data.index(b"\x44")
+<<<<<<< HEAD
     return struct.unpack(">f", data[idx + 1:idx + 5])[0]
+=======
+    return struct.unpack(">f", data[idx + 1:idx + 5])[0]
+>>>>>>> d160e37 (Add toolkit files)

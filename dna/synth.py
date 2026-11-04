@@ -54,5 +54,10 @@ if __name__ == "__main__":
 
     control = SIGNATURE[80:125]
     print(f"control {len(control)} bp shared={screen(control):3d} -> "
+<<<<<<< HEAD
           f"{'blocked' if screen(control) else 'released'}")
 
+=======
+          f"{'blocked' if screen(control) else 'released'}")
+
+>>>>>>> d160e37 (Add toolkit files)

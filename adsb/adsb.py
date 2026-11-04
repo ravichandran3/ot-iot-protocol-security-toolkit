@@ -124,7 +124,14 @@ if __name__ == "__main__":
     print("ghost %8.4f %9.4f syndrome %d" % (glat, glon, syndrome(ghost_o)))
 
     tampered = ghost_o ^ (1 << 40)
+<<<<<<< HEAD
     print("tampered syndrome", syndrome(tampered))
 
 
 
+=======
+    print("tampered syndrome", syndrome(tampered))
+
+
+
+>>>>>>> d160e37 (Add toolkit files)

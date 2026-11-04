@@ -1,0 +1,8 @@
+DNP3 outstation on 127.0.0.1:20000
+('127.0.0.1', 58231) fc=0x01 bad_blocks=0
+('127.0.0.1', 58231) fc=0x0d bad_blocks=0
+COLD RESTART #1 accepted from ('127.0.0.1', 58231)
+('127.0.0.1', 58231) fc=0x0d bad_blocks=0
+COLD RESTART #2 accepted from ('127.0.0.1', 58231)
+('127.0.0.1', 58231) fc=0x0d bad_blocks=0
+COLD RESTART #3 accepted from ('127.0.0.1', 58231)

@@ -31,7 +31,11 @@ def handle(client):
     while len(body) < length - 1:
         body += client.recv(length - 1 - len(body))
 
+<<<<<<< HEAD
     print("GOT", unit, body[0], flush=True)
+=======
+    print("GOT", unit, body[0], flush=True)
+>>>>>>> d160e37 (Add toolkit files)
     if body[0] in WRITE_FCS and unit != ALLOWED_WRITE_UNIT:
         print(f"DROP write fc={body[0]} unit={unit}", flush=True)
         client.sendall(struct.pack(">HHHB", tid, 0, 3, unit) + bytes([body[0] | 0x80, 0x01]))
@@ -56,5 +60,10 @@ def main():
 
 
 if __name__ == "__main__":
+<<<<<<< HEAD
     main()
 
+=======
+    main()
+
+>>>>>>> d160e37 (Add toolkit files)

@@ -9,4 +9,8 @@ for odd in (0,1):
     print("odd",odd,"yz",yz,"rlat",rlat,"NL(rlat)",cpr_nl(rlat))
     dlon = 360/max(cpr_nl(rlat)-odd,1)
     xz = int(math.floor(2**17*((lon % dlon)/dlon)+0.5))
+<<<<<<< HEAD
     print("   dlon",dlon,"xz",xz,"lon%dlon",lon%dlon)
+=======
+    print("   dlon",dlon,"xz",xz,"lon%dlon",lon%dlon)
+>>>>>>> d160e37 (Add toolkit files)

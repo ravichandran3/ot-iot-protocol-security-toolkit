@@ -11,4 +11,8 @@ nl = cpr_nl(rl)
 m = math.floor(lon_e*(nl-1)/2**17 - lon_o*nl/2**17 + 0.5)
 print("j",j,"rl",rl,"nl",nl,"m",m,"lon_o frac",lon_o/2**17)
 print("cand", 360/max(nl,1)*((m%max(nl,1))+lon_o/2**17))
+<<<<<<< HEAD
 print("decode_position", decode_position(e,o))
+=======
+print("decode_position", decode_position(e,o))
+>>>>>>> d160e37 (Add toolkit files)

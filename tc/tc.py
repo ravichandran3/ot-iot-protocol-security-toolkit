@@ -63,5 +63,10 @@ if __name__ == "__main__":
 
     tampered = bytearray(tc_frame(0x2A, 1, 12, bytes([0x02])))
     tampered[6] ^= 0x01
+<<<<<<< HEAD
     print("tampered         ->", c.receive(bytes(tampered)))
 
+=======
+    print("tampered         ->", c.receive(bytes(tampered)))
+
+>>>>>>> d160e37 (Add toolkit files)

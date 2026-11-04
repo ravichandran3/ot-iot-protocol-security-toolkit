@@ -56,4 +56,8 @@ if __name__ == "__main__":
     signed = set(attacked) - {ATTACKER}
     ok, mean = deliver(attacked, signed, blackhole=ATTACKER)
     path = route(attacked, "m0", STATION, signed)
+<<<<<<< HEAD
     print(f"allowlist delivered {ok}/8 mean_hops {mean:.1f} path {'->'.join(path)}")
+=======
+    print(f"allowlist delivered {ok}/8 mean_hops {mean:.1f} path {'->'.join(path)}")
+>>>>>>> d160e37 (Add toolkit files)

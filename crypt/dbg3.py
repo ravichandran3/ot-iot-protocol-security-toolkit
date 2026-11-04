@@ -6,4 +6,8 @@ ct = xor(PLAIN.encode(), b"operator")
 print(" L  key            chi2(decrypted)")
 for L in range(1, 21):
     k, pt = recover(ct, L)
+<<<<<<< HEAD
     print(f"{L:2d}  {k!r:<16} {chi_square(pt.decode('latin-1')):10.1f}")
+=======
+    print(f"{L:2d}  {k!r:<16} {chi_square(pt.decode('latin-1')):10.1f}")
+>>>>>>> d160e37 (Add toolkit files)

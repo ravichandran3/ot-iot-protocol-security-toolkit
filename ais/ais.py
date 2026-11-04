@@ -91,5 +91,10 @@ if __name__ == "__main__":
     try:
         decode(broken)
     except ValueError as exc:
+<<<<<<< HEAD
         print("tampered ->", exc)
 
+=======
+        print("tampered ->", exc)
+
+>>>>>>> d160e37 (Add toolkit files)

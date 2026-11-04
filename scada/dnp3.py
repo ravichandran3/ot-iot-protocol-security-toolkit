@@ -60,7 +60,14 @@ if __name__ == "__main__":
 
     bad_data = bytearray(f)
     bad_data[12] ^= 0x01
+<<<<<<< HEAD
     print("data tamper ->", parse_link(bytes(bad_data))["bad_blocks"], "bad block")
 
 
 
+=======
+    print("data tamper ->", parse_link(bytes(bad_data))["bad_blocks"], "bad block")
+
+
+
+>>>>>>> d160e37 (Add toolkit files)

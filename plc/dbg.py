@@ -12,4 +12,8 @@ if len(head) >= 7:
         c = s.recv(length-1-len(body)); print("got", len(c)); 
         if not c: break
         body += c
+<<<<<<< HEAD
     print(len(body), body.hex())
+=======
+    print(len(body), body.hex())
+>>>>>>> d160e37 (Add toolkit files)

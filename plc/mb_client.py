@@ -15,7 +15,11 @@ def transact(sock, tid, unit, pdu):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--host", default="127.0.0.1")
+<<<<<<< HEAD
     ap.add_argument("--port", type=int, default=15020)
+=======
+    ap.add_argument("--port", type=int, default=15020)
+>>>>>>> d160e37 (Add toolkit files)
     ap.add_argument("--unit", type=int, default=1)
     a = ap.parse_args()
 
@@ -46,5 +50,10 @@ def main():
 
 
 if __name__ == "__main__":
+<<<<<<< HEAD
     main()
 
+=======
+    main()
+
+>>>>>>> d160e37 (Add toolkit files)

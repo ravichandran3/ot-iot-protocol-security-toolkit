@@ -9,4 +9,8 @@ def byte_ic(data: bytes) -> float:
 print("len  byteIC")
 for L in range(1,21):
     cols=[ct2[i::L] for i in range(L)]
+<<<<<<< HEAD
     print(f"{L:3d}  {sum(byte_ic(c) for c in cols)/L:.4f}")
+=======
+    print(f"{L:3d}  {sum(byte_ic(c) for c in cols)/L:.4f}")
+>>>>>>> d160e37 (Add toolkit files)

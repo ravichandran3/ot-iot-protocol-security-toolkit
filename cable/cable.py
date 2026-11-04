@@ -71,4 +71,8 @@ if __name__ == "__main__":
         rest = base.copy()
         rest.remove_node(n)
         alive = [c for c in CRITICAL if nx.has_path(rest, "internet", c)]
+<<<<<<< HEAD
         print(f"remove node {n:<8} critical still reachable {len(alive)}/5")
+=======
+        print(f"remove node {n:<8} critical still reachable {len(alive)}/5")
+>>>>>>> d160e37 (Add toolkit files)

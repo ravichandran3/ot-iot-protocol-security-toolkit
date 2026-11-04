@@ -51,4 +51,8 @@ if __name__ == "__main__":
     slow = run(spoof_rate=0.05)
     row("spoof 0.05 m/s, 3 refs, median", slow)
     print(f"slow ramp: max per-sample jump {slow['max_jump']:.3f} m "
+<<<<<<< HEAD
           f"-> jump monitor (limit {JUMP_LIMIT:g}) {'fires' if slow['jump'] is not None else 'silent'}")
+=======
+          f"-> jump monitor (limit {JUMP_LIMIT:g}) {'fires' if slow['jump'] is not None else 'silent'}")
+>>>>>>> d160e37 (Add toolkit files)

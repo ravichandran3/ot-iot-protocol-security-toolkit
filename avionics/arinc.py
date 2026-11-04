@@ -74,5 +74,10 @@ if __name__ == "__main__":
           (bnr(parse429(forged_ok)["data"], 100), parse429(forged_ok)["parity_ok"]))
 
     c = mil1553(31, 0, 0, 1)
+<<<<<<< HEAD
     print("1553 cmd 0x%04x" % c, parse1553(c))
 
+=======
+    print("1553 cmd 0x%04x" % c, parse1553(c))
+
+>>>>>>> d160e37 (Add toolkit files)
