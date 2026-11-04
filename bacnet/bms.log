@@ -1,5 +1,0 @@
-BACnet/IP device on 127.0.0.1:47808
-who-is -> i-am
-read ai1 p77 -> 21.5
-WRITE ai1 p77 = 99.0
-read ai1 p77 -> 99.0
